@@ -1,0 +1,65 @@
+/* index.html css */
+.wrap {
+    margin: 0 auto;
+    width: 1000px;
+}
+.active-body-background {
+    background: #231f20;
+}
+.btn-w, .btn-w-1, .btn-w-2, .btn-w-3 {
+    background: #bfbfbf;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+.btn-w-1, .btn-w-2, .btn-w-3 {
+    display: none;
+    background: #a6192e;
+}
+.header {
+    background: #8db9ca;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+.logo {
+    background: #00395d;
+    color: #ffffff;
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    width: 100px;
+    margin: 10px 20px;
+    padding: 30px 0;
+}
+.nav {
+    display: flex;;
+    justify-content: space-around;
+    width: 400px;
+}
+.nav li {
+    width: 100px;
+}
+.nav li a {
+    color: #00395d;
+    display: block;
+    font-size: 18px;
+    font-family: helvetica;
+    text-decoration: none;
+    text-align: center;
+    padding: 40px 0;
+}
+.nav ul {
+    display: none;
+}
+.nav li a:hover, .dropdown.active-click {
+    background: #bfbfbf;
+    color: #ffffff;
+    border-bottom: 5px solid #00395d;
+}
+.active-gray {
+    background: #bfbfbf;
+}

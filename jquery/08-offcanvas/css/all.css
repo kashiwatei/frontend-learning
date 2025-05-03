@@ -1,0 +1,55 @@
+/* index.html css */
+.header {
+    background: #6a737b;
+    padding: 50px;
+    transition: 0.4s ease; /* 轉場：緩慢地移動 > 變快 > 慢慢結束 */
+}
+.btn {
+    background: #004b79;
+    border: 2px solid #004b79;
+    border-radius: 5px;
+    color: #ffff;
+    font-family: helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 50px;
+    margin-left: 200px;
+}
+.btn:hover {
+    box-shadow: 0 0 5px #00aeff;
+}
+.content {
+    background: #8db9ca;
+    padding: 100px;
+    transition: 0.4s ease; /* 轉場：緩慢地移動 > 變快 > 慢慢結束 */
+}
+h1 {
+    color: #ffff;
+    font-family: helvetica;
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.aside {
+    background: #7552cc;
+    color: #ffff;
+    font-family: helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 50px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 200px;
+    /* overflow: hidden; */
+    transform: translateX(-200px); /* 變形：水平移動 */
+    transition: 0.4s ease; /* 轉場：緩慢地移動 > 變快 > 慢慢結束 */
+}
+.open .aside {
+    transform: translateX(0px);
+    
+}
+.open .header, .open .content {
+    transform: translateX(200px);
+} 

@@ -1,0 +1,24 @@
+/* index.html css */
+section {
+    background: #004b79;
+    border: 2px solid #004b79;
+    border-radius: 5px;
+    color: #ffff;
+    font-family: helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 50px;
+    width: 500px;
+    
+}
+h1 {
+    background: #d7d7d8;
+    color: #ff6c5f;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+p {
+    border: 2px solid #004b79;
+    font-family: helvetica;
+    font-weight: 700;
+}

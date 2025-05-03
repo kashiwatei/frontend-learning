@@ -1,0 +1,64 @@
+/* index.html css */
+
+.container {
+    background-color: #dbe0e3;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #706357;
+    width: 900px;
+    margin: 0 auto;
+    padding: 50px;
+    height: 500px;    /* 高度僅供練習專用 */
+}
+.btn:focus {
+    color: #f6b128;
+}
+.btn:hover {
+    box-shadow: 0 0 15px #685c53;
+}
+.btn-t, .btn-f, .btn-s {
+    background-color: #4374b7;
+    color: #dbe0e3;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 10px 20px 0;
+    padding: 10px;
+}
+
+section {
+    display: flex;
+    justify-content: space-evenly;
+}
+.card {
+    background-color: #4a8594;
+    border: 2px solid #6a737b;
+    border-radius: 15px;
+    box-shadow: 0 0 5px #706357;
+    width: 200px;
+    padding: 20px;
+}
+.photo {
+    background: #6a737b;
+    border: 2px solid #464646;
+    border-radius: 5px;
+    color: #f0f0f0;
+    font-weight: 700;
+    text-align: center;
+    padding: 50px 10px;
+}
+.title {
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.text {
+    text-align: justify;
+    text-indent: 2em;
+}
+.line {
+    background-color: #282828;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    height: 10px;
+    width: 160px;
+}

@@ -1,0 +1,22 @@
+/* index.html css */
+.btn {
+    background: #004b79;
+    border: 2px solid #004b79;
+    border-radius: 5px;
+    color: #ffff;
+    font-family: helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 50px;
+    position: absolute;
+    top: 400px;
+    left: 500px;
+}
+.btn:hover {
+    box-shadow: 0 0 5px #00aeff;
+}
+h1 {
+    color: #ff6c5f;
+    font-size: 100px;
+    margin: 200px 0 0 320px;
+}

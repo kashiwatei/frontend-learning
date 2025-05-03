@@ -1,0 +1,99 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* index.html css */
+
+.wrap {
+    width: 900px;
+    margin: 0 auto;
+}
+.header {
+    background: #629aa9;
+    display: flex;
+    justify-content: flex-end;
+}
+/* 請注意先設定.nav的寬度 */
+.nav {
+    width: 500px;      
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px 20px 0px 0px;
+}
+/* 再設定li的寬度（但不要在這裡設定padding的值） */
+.nav li {
+    width: 100px;
+    text-align: center;
+}
+/* 請注意在此設定padding的值，讓連結功能可佔滿版面 */
+.nav li a {
+    color: #000000;
+    text-decoration: none;
+    display: block;
+    padding: 20px 0px 20px 0px;
+    font-size: 18px;
+}
+.nav li a:hover {
+    color: #bf033b;
+    font-weight: bold;   
+}
+.nav li a:active {
+    color: #ff4c4c;
+    font-weight: bold;   
+}
+/* 高度應由內容決定，但這裡暫時設定高度 */
+.content {
+    background: #f3f4f7;
+    height: 500px;
+    margin: 20px 0px 20px 0px;
+}
+.footer {
+    background: #8db9ca;
+    padding: 50px;
+    text-align: center;
+}

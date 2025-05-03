@@ -1,0 +1,25 @@
+/* index.html css */
+table {
+    width: 300px;
+    margin: 100px;
+}
+tr {
+    border: 2px solid black;
+}
+td {
+    padding: 10px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+.btn {
+    background: lightseagreen;
+    color: aliceblue;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.btn:hover {
+    box-shadow: 0 0 6px lightslategrey;
+}

@@ -1,0 +1,115 @@
+/* index.html css */
+.wrap {
+    margin: 0 auto;
+    width: 1000px;
+}
+.active-body-background {
+    background: #231f20;
+}
+.btn-w, .btn-w-l, .btn-w-m, .btn-w-s {
+    background: #bfbfbf;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+.header {
+    background: #8db9ca;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+.logo {
+    background: #00395d;
+    color: #ffffff;
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    width: 100px;
+    margin: 10px 20px;
+    padding: 30px 0;
+}
+.nav {
+    display: flex;;
+    justify-content: space-around;
+    width: 400px;
+}
+.nav li {
+    width: 100px;
+}
+.nav li a {
+    color: #00395d;
+    display: block;
+    font-size: 18px;
+    font-family: helvetica;
+    text-decoration: none;
+    text-align: center;
+    padding: 40px 0;
+}
+.nav ul {
+    display: none;
+}
+.nav li a:hover, .dropdown.active-click {
+    background: #bfbfbf;
+    color: #ffffff;
+    border-bottom: 5px solid #00395d;
+}
+.active-color {
+    background: #8db9ca;
+}
+.content {
+    padding: 30px 100px 30px 20px;
+}
+.content p {
+    font-family: helvetica;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.5;
+    text-indent: 2em;
+    margin-bottom: 20px;
+}
+.active-font-color {
+    color: #ffffff;
+}
+.ad {
+    background: #706357;
+    width: 400px;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    border-radius: 0 20px 0 0;
+}
+.ad p {
+    text-align: center;
+    font-size: 20px;
+    padding: 100px;
+}
+.ad a {
+    color: #a6192e;
+    display: block;
+    width: 100px;
+    background: #dbe0e3;
+    text-align: center;
+    text-decoration: none;
+    font-family: helvetica;
+    font-weight: 700;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 165px;
+    left: 300px;
+    border-radius: 0 20px 0 0;
+}
+.scroll-top {
+    background: #b84592;
+    color: #ffff;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 12px;
+    position: fixed;
+    right: 500px;
+    bottom: 0;
+}
